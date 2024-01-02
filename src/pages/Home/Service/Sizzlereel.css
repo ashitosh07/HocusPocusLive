@@ -1,0 +1,61 @@
+.responsive-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 58%;
+  height: 80%;
+  z-index: 1;
+}
+
+.button {
+  margin-top: 37%;
+  margin-left: 35%;
+}
+
+.buttonStyle {
+  padding: 6px 16px;
+  margin: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2c044b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.parent {
+  width: 100%;
+  height: 90vh;
+}
+
+.seezle {
+  width: 50%;
+  height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-frame {
+    width: 85%;
+    height: 52%;
+  }
+  .parent {
+    width: 100%;
+    height: 43vh;
+    padding: 20px;
+  }
+  .seezle {
+    width: 74%;
+    height: 80%;
+  }
+  .button {
+    display: flex;
+    margin-top: 68%;
+    margin-left: 7%;
+  }
+  .buttonStyle {
+    padding: 6px 10px;
+    margin: 10px 10px;
+    font-size: 16px;
+  }
+}

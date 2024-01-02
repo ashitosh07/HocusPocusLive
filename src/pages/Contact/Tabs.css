@@ -1,0 +1,179 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  margin-bottom: 16px;
+  /* gap: 44px; */
+}
+
+.card {
+  width: calc(30% - 16px);
+  margin-bottom: 16px;
+  margin-right: 30%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Add these styles to your Tabs.css file or your styling solution */
+.tab-container {
+  display: flex;
+
+  margin-bottom: 20px;
+}
+
+/* Styles for the .tab class */
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px !important;
+  border-radius: 5px;
+  color: #fff !important; /* Ensure text color is white */
+  transition: background-color 0.3s ease;
+}
+
+/* Styles for the .tab class on hover */
+.tab:hover {
+  color: #333; /* Text color on hover */
+  text-decoration: underline #8dce19; /* Underline with a green color */
+}
+
+/* Styles for the .tab class when it has the active-tab class */
+.tab.active-tab {
+  color: #fff; /* Ensure text color is white */
+}
+
+.selected-card-details {
+  background-color: #181818;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-right: -25px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.detail-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 25%;
+  margin-bottom: 40px;
+}
+
+.detail-row {
+  display: flex;
+  margin-right: 26px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detail-column {
+  display: flex;
+  flex-direction: row;
+  gap: 24%;
+  margin-bottom: 40px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #8dce19;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add these styles to your existing CSS */
+
+/* Add these styles to your existing CSS */
+
+/* Add these styles to your existing CSS */
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc; /* Set your desired background color */
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px; /* Add margin to separate the progress bar and text */
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 50%; /* Adjust the width based on the progress */
+  background-color: #8dce19; /* Set your desired fill color */
+}
+
+/* Add styling for the text */
+p {
+  font-weight: bold;
+  /* Set your desired text color */
+}
+
+@media (max-width: 568px) {
+  .details-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .detail-first {
+    flex-direction: column;
+    gap: 25%;
+    margin-bottom: 40px;
+  }
+
+  .detail-column {
+    flex-direction: column;
+    gap: 24%;
+    margin-bottom: 10%;
+  }
+  .detail-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    justify-content: space-between;
+  }
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc; /* Set your desired background color */
+    border-radius: 5px;
+    overflow: hidden;
+    /* Add margin to separate the progress bar and text */
+  }
+  .detail-value {
+    margin-top: 10%;
+    /* Add styling for the detail value */
+  }
+  .progress-bar-fill {
+    height: 100%;
+    width: 50%; /* Adjust the width based on the progress */
+    background-color: #8dce19; /* Set your desired fill color */
+  }
+  .status-section {
+    margin-top: 30%;
+  }
+  hr {
+    visibility: hidden;
+  }
+}

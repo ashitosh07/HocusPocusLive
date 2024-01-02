@@ -1,0 +1,18 @@
+.new-banner-container {
+  position: relative;
+}
+
+.background-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.witch-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 00px; /* Adjust the width as needed */
+  height: auto;
+}

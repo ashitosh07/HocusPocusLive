@@ -1,0 +1,19 @@
+/* YourComponent.css */
+
+/* Styles for the main section */
+.main-section {
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+/* Styles for the client section */
+.client-section {
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}

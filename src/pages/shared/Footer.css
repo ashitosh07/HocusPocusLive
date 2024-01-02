@@ -1,0 +1,48 @@
+a {
+  color: #b3b3b3;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Styles for links on hover */
+a:hover {
+  color: #8dce19; /* Color to change to on hover */
+}
+.input-field::placeholder {
+  color: #000000;
+  font-weight: bold;
+}
+
+.footer-container {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/*  */
+.woman {
+  width: 20%;
+  position: absolute;
+  right: 0px;
+  top: 66px;
+}
+@media (max-width: 430px) {
+  .woman {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    top: 53%;
+  }
+}
+@media (max-width: 414px) {
+  .woman {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+  }
+}

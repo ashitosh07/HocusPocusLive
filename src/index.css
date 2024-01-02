@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&family=Mukta:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: block;
+  background-color: #000000;
+  z-index: -100;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Lexend', sans-serif;
+  font-family: 'Mukta', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Lexend', sans-serif;
+  font-family: 'Mukta', sans-serif;
+}
+
+* {
+  scrollbar-width: medium;
+  scrollbar-color: #8dce19 #313131;
+}
+
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #313131;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8dce19;
+  border-radius: 20px;
+  border: 3px solid #313131;
+}

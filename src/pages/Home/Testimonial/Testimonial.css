@@ -1,0 +1,28 @@
+/* Customize Carousel Dots */
+
+/* // ExternalStyles.css */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@300&family=Lexend:wght@100;200;300;400;500&family=Mukta:wght@200&family=Mystery+Quest&family=Outfit&family=Poppins:ital,wght@0,200;0,300;1,200&family=Proza+Libre&family=Staatliches&family=Syne:wght@400;800&display=swap');
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  bottom: -30px !important;
+}
+
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+
+.slick-dots li button {
+  width: 2px !important;
+  height: 2px !important;
+  padding: 0;
+  border-radius: 100%;
+  border: 2px solid #fefb01 !important;
+  text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fefb01;
+}
