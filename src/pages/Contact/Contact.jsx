@@ -19,6 +19,16 @@ const Contact = () => {
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true })
   const [viewDiv, setViewDiv] = useState(false)
   const animation = useAnimation()
+  const [state, setState] = useState({
+    data: {
+      firstName: '',
+      email: '',
+      phone: '',
+      message: '',
+      question: '',
+    },
+    errors: {},
+  })
 
   useEffect(() => {
     if (inView) {
@@ -30,24 +40,23 @@ const Contact = () => {
 
   const handleSend = (e) => {
     e.preventDefault()
+
     emailjs
-      .sendForm(
-        'itsproali_portfolio',
-        'itsproali_portfolio',
-        form.current,
-        'H-ispiDvwdbG_76iq'
-      )
+      .sendForm('gmail', 'template_hhvkv5v', form.current, '_oE-UyMZh1i0VBa0t')
       .then(
         (result) => {
           console.log(result.text)
-          Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Your Message has been sent',
-            showConfirmButton: false,
-            timer: 1500,
+          // Reset the form fields after successful submission
+          setState({
+            data: {
+              firstName: '',
+              email: '',
+              phone: '',
+              message: '',
+              question: '',
+            },
+            errors: {},
           })
-          navigate('/')
         },
         (error) => {
           console.log(error.text)
@@ -157,8 +166,8 @@ const Contact = () => {
                 <label htmlFor='Description'>WHAT WOULD YOU LIKE TO DO?</label>
                 <textarea
                   className='input-field'
-                  name='LIKE'
-                  id='LIKE'
+                  name='message'
+                  id='message'
                   cols='20'
                   rows='2'
                   placeholder='WHAT WOULD YOU LIKE TO DO?'
@@ -172,14 +181,29 @@ const Contact = () => {
                 </label>
                 <textarea
                   className='input-field'
-                  name='Question'
-                  id='Question'
+                  name='question'
+                  id='question'
                   cols='30'
                   rows='2'
                   placeholder='   Ask A Question / Leave A Review'
                   required
                   style={{ color: 'black', backgroundColor: 'white' }}
                 ></textarea>
+                <button
+                  type='submit'
+                  style={{
+                    backgroundColor: '#4CAF50',
+                    color: 'black',
+                    padding: '6px 25px',
+                    border: 'none',
+                    borderRadius: '5px',
+                    cursor: 'pointer',
+                    fontSize: '16px',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  Submit
+                </button>
               </div>
             </form>
           </div>
