@@ -15,54 +15,81 @@ const Ticket = () => {
       }}
       id='gettickets'
     >
-      <div className='parent min-h-[90vh] flex flex-col lg:flex-row  items-center justify-between '>
-        <div
-          className='w-full md:w-1/2 text-center'
-          initial={{ x: '100vw' }}
-          animate={{ x: 0 }}
-          transition={{ duration: 1 }}
-        >
-          <img
-            src={ticket}
-            alt='Decorative'
-            className='ticket'
-            // style={{
-            //   width: '63%',
-            //   height: '100%',
-            //   marginTop: '20px',
-            // }}
-          />
+      <div className='parent min-h-[90vh] flex flex-col lg:flex-row items-center justify-between'>
+        <div className='w-full md:w-1/2 text-center'>
+          <img src={ticket} alt='Decorative' className='ticket' />
         </div>
-        <div
-          initial={{ x: '-100vw' }}
-          animate={{ x: 0 }}
-          transition={{ duration: 1 }}
-        >
-          <img
-            src={tickettitle} // Replace with your image path
-            alt='Get Tickets'
-            style={{ width: '100%', height: 'auto' }}
-          />
-          {/* <img src={tickettitle} alt='' /> */}
-          {/* <p
-            className='text-neutral max-w-xl mb-6 font-medium'
-            style={{ color: '#000000', margin: '5% 0' }}
-          >
-            Access the full potential of our user dashboard, where clients can
-            effortlessly upload documents and monitor task progress in
-            real-time. Our secure document upload feature ensures the
-            confidentiality of your information, with support for various file
-            formats. The intuitive interface guarantees a user-friendly
-            experience, allowing you to seamlessly navigate through the system
-            and receive immediate updates on task progress. With robust security
-            measures, including encryption and secure connections, your data is
-            safeguarded at every step. Guidelines for optimal use are provided
-            to assist you in organizing and managing your documents effectively.
-            If you need assistance, our support team is just a message away,
-            ensuring a smooth and secure user experience.
-          </p> */}
+        <div className='w-full md:w-1/2 text-center'>
+          <img src={tickettitle} alt='Get Tickets' className='ticket-title' />
 
-          <div className='lg:flex lg:flex-row flex-col items-center'></div>
+          <div className='event-details'>
+            <p>
+              <strong>
+                September 27 & 28 7pm - WARNER THEATER TORRINGTON CT
+              </strong>
+              <br />
+              <a
+                href='https://www.warnertheatre.org/events/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Direct link for venue
+              </a>
+            </p>
+            <p>
+              <strong>
+                October 4 & 5 7pm, 2pm, 7pm - CABARET ON MAIN EAST HAVEN CT
+                (special immersive version)
+              </strong>
+              <br />
+              <a
+                href='https://cabaretonmain.ludus.com/index.php'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Direct link for venue
+              </a>
+            </p>
+            <p>
+              <strong>October 26 8pm - PRIAM VINEYARDS COLCHESTER CT</strong>
+              <br />
+              <a
+                href='https://www.priam-vineyards.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Direct link for venue
+              </a>
+            </p>
+            <p>
+              <strong>
+                October 30 7:30pm - PALACE THEATER WATERBURY CT sponsored by
+                Apex Community Care (SEE THE WITCHES FLY LIVE ON STAGE!)
+              </strong>
+              <br />
+              <a
+                href='https://www.palacetheaterct.org/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Direct link for venue
+              </a>
+            </p>
+            <p>
+              <strong>
+                November 1 & 2 8pm & 1pm - GARDE ARTS CENTER NEW LONDON CT (SEE
+                THE WITCHES FLY LIVE ON STAGE!)
+              </strong>
+              <br />
+              <a
+                href='https://gardearts.org/events/hocus-pocus/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Direct link for venue
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
