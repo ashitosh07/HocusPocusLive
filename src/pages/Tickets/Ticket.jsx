@@ -33,7 +33,7 @@ const Ticket = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Direct link for venue
+                Click for tickets
               </a>
             </p>
             <p>
@@ -47,7 +47,7 @@ const Ticket = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Direct link for venue
+                Click for tickets
               </a>
             </p>
             <p>
@@ -58,7 +58,7 @@ const Ticket = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Direct link for venue
+                Click for tickets
               </a>
             </p>
             <p>
@@ -72,7 +72,7 @@ const Ticket = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Direct link for venue
+                Click for tickets
               </a>
             </p>
             <p>
@@ -86,7 +86,7 @@ const Ticket = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Direct link for venue
+                Click for tickets
               </a>
             </p>
           </div>
