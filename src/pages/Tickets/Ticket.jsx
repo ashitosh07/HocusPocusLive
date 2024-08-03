@@ -77,7 +77,7 @@ const Ticket = () => {
             </p>
             <p>
               <strong>
-                November 1 & 2 8pm & 1pm - GARDE ARTS CENTER NEW LONDON CT (SEE
+                November 1 & 2 8pm & 11am - GARDE ARTS CENTER NEW LONDON CT (SEE
                 THE WITCHES FLY LIVE ON STAGE!)
               </strong>
               <br />
