@@ -49,4 +49,11 @@ export const allBlogDetailsData = [
     description: 'Read about it HERE',
     href: 'https://www.courant.com/2020/10/09/family-friendly-halloween-activities-in-connecticut-during-covid-19/',
   },
+  {
+    id: '7',
+    title:
+      'Thank you Broadwayworld.com for the article about the upcoming 5 city CT tour.',
+    description: 'Read about it HERE',
+    href: 'https://www.broadwayworld.com/connecticut/article/Summer-Orlando-Productions-Announces-Statewide-Tour-Of-HOCUS-POCUS-LIVE-20240802',
+  },
 ]

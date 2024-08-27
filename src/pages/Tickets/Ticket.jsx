@@ -106,12 +106,26 @@ const Ticket = () => {
             </p>{' '}
             <p>
               <strong>
-                "Just a Brunch of Hocus Pocus"- Oct 20 Seating 11am showtime
+                Just a Brunch of Hocus Pocus"- Oct 20 Seating 11am showtime
                 12pm.
               </strong>
               <br />
               <a
                 href='https://essexsteamtrain.com/experiences-2/just-a-brunch-of-hocus-pocus/?fbclid=IwY2xjawEp6rRleHRuA2FlbQIxMAABHb1FpJA2NTs9PrrkeS8iSt3gsT0pkz-kj6HiLXszNYT9_rkiWqkfFb5sNA_aem_EdnChd9KNVQyWqAvYIQ9yQ'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Click for tickets
+              </a>
+            </p>
+            <p>
+              <strong>
+                "Hocus Pocus I Need to Wine To Focus" October 12 6-8:30pm click
+                here for tickets:
+              </strong>
+              <br />
+              <a
+                href='https://www.aquilasnestvineyards.com/service-page/hocus-pocus-live-music-drag-show'
                 target='_blank'
                 rel='noopener noreferrer'
               >
