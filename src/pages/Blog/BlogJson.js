@@ -56,4 +56,10 @@ export const allBlogDetailsData = [
     description: 'Read about it HERE',
     href: 'https://www.broadwayworld.com/connecticut/article/Summer-Orlando-Productions-Announces-Statewide-Tour-Of-HOCUS-POCUS-LIVE-20240802',
   },
+  {
+    id: '8',
+    title: `Thank you Susan Shultz from Hearst Media for the interview on CT Post about our upcoming "Hocus Pocus Live!!!" 2024 CT tour. We very much enjoyed speaking with you about its 7 year history and our Winnie's connection to "Hocus Pocus 2".`,
+    description: 'Read about it HERE',
+    href: 'https://www.ctpost.com/events-ct/article/get-ready-fall-spell-hocus-pocus-live-fall-c-19731449.php',
+  },
 ]
