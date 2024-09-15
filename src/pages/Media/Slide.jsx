@@ -33,6 +33,7 @@ import media31 from '../../assets/media/media31.png'
 import media32 from '../../assets/media/media32.png'
 import media33 from '../../assets/media/media33.mp4'
 import media34 from '../../assets/media/media34.mp4'
+
 const Slide = [
   {
     type: 'video',
