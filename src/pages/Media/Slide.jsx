@@ -31,7 +31,8 @@ import media29 from '../../assets/media/media29.png'
 import media30 from '../../assets/media/media30.png'
 import media31 from '../../assets/media/media31.png'
 import media32 from '../../assets/media/media32.png'
-
+import media33 from '../../assets/media/media33.mp4'
+import media34 from '../../assets/media/media34.mp4'
 const Slide = [
   {
     type: 'video',
@@ -83,6 +84,28 @@ const Slide = [
       <div className='item'>
         <video width='100%' controls className='media'>
           <source src={media5} />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    ),
+  },
+  {
+    type: 'video',
+    content: (
+      <div className='item'>
+        <video width='100%' controls className='media'>
+          <source src={media33} />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    ),
+  },
+  {
+    type: 'video',
+    content: (
+      <div className='item'>
+        <video width='100%' controls className='media'>
+          <source src={media34} />
           Your browser does not support the video tag.
         </video>
       </div>
