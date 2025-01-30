@@ -67,25 +67,21 @@ const About = () => {
                 fontWeight: '1000',
               }}
             >
-              The Original Production from the zany and creative mind of Summer
-              Orlando!!! Summer Orlando Productions presents : HOCUS POCUS
-              LIVE!!! A full length theatrical musical parody production based
-              off the cult classic Disney film. A tribute production like no
-              other filled with drag queens, special effects, live Singing,
-              magic and surprises. BEWITCHING NEW SHOW Featuring fantastic
-              character look a likes including New England's #1 live singing
-              Winifred Sanderson Impersonator Summer Orlando as seen in Disney's
-              "Hocus Pocus 2"!!!!. If you think you've seen Hocus Pocus, you've
-              never seen it like this. The Halloween show of the Season, now in
-              its 7th year of sold-out performances. Flying to a venue near you.
-              Costumes, props, Theatrical set , and special effects included)
-              and ask about our Family Friendly all ages version of the Show.
-              NOW BOOKING FOR 2024 and beyond. This production has been
-              performed for over 5000 people. . HOCUS POCUS LIVE!!! has been
-              given the stamp of approval by 5 original Cast members from the
-              film including Kathy Najimy (Mary Sanderson), Jordan Redmond
-              (original angel), and Bette Midler herself says our Winifred looks
-              just like her.
+             The original production from the zany and creative mind of Summer Orlando is flying to a venue near you. This full length theatrical musical parody production based on the cult classic Disney film. A tribute production like no other filled with hilarious comedy, special effects, live singing, magic and surprises. 
+
+BEWITCHING ALL AGE FRIENDLY SHOW FEATURING fantastic character look-alikes including New England’s #1 live singing Winifred Sanderson Impersonator Summer Orlando as seen in Disney’s “Hocus Pocus 2”! This show includes some of the most memorable characters and scenes from the Halloween cult classic.  Come in costume dressed as your favorite Sanderson sister for a chance to win some fabulous prizes. 
+
+“It’s a Sanderson Sister takeover that’s sure to put a spell on you.” 
+
+When asked “Why Hocus Pocus?”: Creator and director Summer Orlando said: “Hocus Pocus is a cult classic Disney phenomenon which is celebrating 31 years this year. It’s the go to Halloween movie for an entire generation AND has a huge LGBTQIA+ following thanks to the divine Bette Midler; its campy and its fun. Add some of our special brand of magic and you got yourself the #1 Halloween show to see this year.” 
+
+  
+
+If you think you’ve seen Hocus Pocus, you’ve never seen it like this! 
+
+Now in its 8th year of sold-out performances.  This production has been performed for over 5000 people. HOCUS POCUS LIVE!!! has been given the stamp of approval by 5 original Cast members from the film including Kathy Najimy (Mary Sanderson),  Jordan Redmond (original angel), and Bette Midler herself, who says our Winifred looks just like her. 
+
+
             </p>
             <br />
             <br />
@@ -95,11 +91,12 @@ const About = () => {
                 color: '#fefb01',
                 fontFamily: 'LondrinaShadow',
                 fontWeight: '1000',
-              }}
-            >
-              *We do not represent any licensed characters <br /> This show is a
-              Parody and Tribute and in no way Affiliated to The Disney Company
-              in any way.
+                marginBottom: "95px",
+                marginRight: "140px"
+      }}
+    >
+    *We do not represent any licensed characters 
+This show is a Parody and Tribute and in no way Affiliated to The Disney Company in any way.
             </p>
           </div>
         </div>
@@ -107,7 +104,7 @@ const About = () => {
       <style>{fontStyles}</style>
       <div
         className=' grid grid-cols-1 md:grid-cols-3 gap-8 relative '
-        style={{ marginLeft: '80px' }}
+        style={{ marginLeft: '70px' }}
       >
         {witches.map((witch, index) => (
           <div

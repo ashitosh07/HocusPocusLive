@@ -22,7 +22,7 @@ const Ticket = () => {
         <div className='w-full md:w-1/2 text-center'>
           <img src={tickettitle} alt='Get Tickets' className='ticket-title' />
 
-          <div className='event-details'>
+          {/* <div className='event-details'>
             <p>
               <strong>
                 September 27 & 28 7pm - WARNER THEATER TORRINGTON CT
@@ -132,7 +132,7 @@ const Ticket = () => {
                 Click for tickets
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
