@@ -39,7 +39,7 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 50%;
+  width: 30%;
   height: auto;
   z-index: 23;
 }
@@ -89,7 +89,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 56% !important;
+    width: 36% !important;
     z-index: 3;
   }
 
@@ -126,7 +126,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 68% !important;
+    width: 38% !important;
     z-index: 3;
   }
 
