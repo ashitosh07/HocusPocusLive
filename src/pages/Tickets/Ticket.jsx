@@ -23,7 +23,7 @@ const Ticket = () => {
           <img src={tickettitle} alt='Get Tickets' className='ticket-title' />
 
           <div className='event-details text-left mt-6 space-y-4 text-lg'>
-  {/* <p>
+  <p>
               <strong>Sept 6 Essex CT The Salem Express: Revenge of the Sanderson Sisters</strong>
               <br />
               <a
@@ -87,7 +87,7 @@ const Ticket = () => {
               >
                 Click here for tickets
               </a>
-            </p> */}
+            </p>
 <p>
               <strong>October 4 Newtown CT, Hocus Pocus I need Wine to Focus </strong>
               <br />
