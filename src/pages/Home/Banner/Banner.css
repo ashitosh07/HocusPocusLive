@@ -28,8 +28,8 @@
 .logo {
   position: absolute;
   top: -60px;
-  right: 30px;
-  width: 300px;
+  right: 0px;
+  width: 500px;
   height: auto;
   z-index: 53;
 }

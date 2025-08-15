@@ -45,7 +45,7 @@ const Footer = () => {
                   <img
                     src={logo}
                     alt='AS CA'
-                    style={{ width: '100%', margin: '20px 0' }}
+                  className='footerLogo'
                   />
                 </div>
                 <p

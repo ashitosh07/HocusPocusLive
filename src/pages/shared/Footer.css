@@ -26,9 +26,18 @@ a:hover {
 /*  */
 .woman {
   width: 20%;
-  position: absolute;
+  /* position: absolute; */
   right: 0px;
   top: 66px;
+}
+
+.footerLogo {
+  position: absolute;
+left: 110px;
+ top: -10px;
+  width: 500px;
+  height: auto;
+  
 }
 @media (max-width: 430px) {
   .woman {
